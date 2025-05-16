@@ -44,7 +44,8 @@ public class VentanaRegistroUsuario extends JDialog {
                     !Pattern.matches("\\d+", id) ||
                     !Pattern.matches("\\d+", telefono)) {
                 JOptionPane.showMessageDialog(this, "Datos inválidos. Asegúrate de que:\n" +
-                        "- Nombre y Apellido solo contengan letras.\n" +
+                        "-Todos los campos deben presentar informacion. \n " +
+                        "-Nombre y Apellido solo contengan letras.\n" +
                         "- ID y Teléfono sean numéricos.");
                 return;
             }
